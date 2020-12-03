@@ -1,18 +1,14 @@
-import { Heading, Stack } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
-import { ProbandoJavascript } from "../components/ProbandoJavascript";
-import { ProbandoAPI } from "../components/ProbandoAPI";
-import { ProbandoListas } from "../components/ProbandoListas";
-import { ProbandoInput } from "../components/ProbandoInput";
-
-export default function IndexPage() {
+export default function Cannon() {
   return (
-    <Stack spacing="45px" padding="10px">
-      <Heading>Hello World</Heading>
-      <ProbandoJavascript />
-      <ProbandoAPI />
-      <ProbandoListas />
-      <ProbandoInput />
-    </Stack>
+    <>
+      <Box id="indexHeader" className="centeredFlex">
+        <Text fontFamily="serif" fontSize="10vh">
+          CANNON
+        </Text>
+      </Box>
+      <Box id="indexBody" className="centeredFlex"></Box>
+    </>
   );
 }

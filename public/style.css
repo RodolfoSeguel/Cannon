@@ -1,3 +1,21 @@
 body {
   font-family: Montserrat, sans-serif;
 }
+
+.centeredFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#indexHeader {
+  width: 100vw;
+  height: 30vh;
+  background-color: #f6e05e;
+}
+
+#indexBody {
+  width: 100vw;
+  height: 70vh;
+  background-color: #1a202c;
+}
